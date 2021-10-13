@@ -1,0 +1,10 @@
+.home__section {
+    display: flex;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.home__section:not(:last-child) {
+    padding-top: 40px;
+}

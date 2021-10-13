@@ -1,0 +1,64 @@
+.search {
+    position: absolute;
+    top: 135px;
+    left: 33.33%;
+
+}
+
+.search>h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 539px;
+    padding: 0 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 360px;
+}
+
+
+.search>button {
+    position: absolute;
+    left: 0;
+    top: 380px;
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 560px;
+}
+
+.search>button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+.rdrMonth {
+    /* padding: 0 0.833em 1.666em 0.833em; */
+    padding: 0 !important;
+}
+
+.search>.search__numberGuest {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    width: 538px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+}
+
+.search__numberGuest>input {
+    outline-width: 0;
+    border: none;
+    font-size: 16px;
+    width: 60px;
+}
+
+.rdrMonthAndYearWrapper {
+    align-items: center;
+    height: 40px !important;
+    padding-top: 0px !important;
+}
